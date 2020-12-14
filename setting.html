@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> SETTING || CREDIT </title>
+
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+
+        <!--CSS -->
+        <!--<link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">-->
+
+        <link href="main.scss/vendors/bootstrap.min.css" rel="stylesheet">
+        <link href="main.scss/vendors/fontawesome.min.css" rel="stylesheet">    
+        <link type="text/css" rel="stylesheet" href="main.scss/custom.css"/>
+
+    </head>
+    <body class="setting-page">
+        <div class="wrapper">
+            <section class="continuum-sec">
+                <div class="continuum-sidebar">
+                    <div class="side-header">
+                        <a href="#"><img src="images/combined-sidebar-logo.svg" alt="" class="img-fluid" /></a>
+                    </div>
+                    <div class="navigation">
+                        <ul>
+                            <li><a href="index.html"><span><img class="simple-state" src="images/dashboard-icon.svg" alt="" /><img class="hover-state" src="images/dashboard-icon-hover.svg" alt="" /></span>Home</a></li>
+                            <li><a href="credits.html"><span><img class="simple-state" src="images/credits-icon.svg" alt="" /><img class="hover-state" src="images/credits-icon-hover.svg" alt="" /></span>Credits</a></li>
+                            <li><a href="courses.html"><span><img class="simple-state" src="images/courses-icon.svg" alt="" /><img class="hover-state" src="images/courses-icon-hover.svg" alt="" /></span>Courses</a></li>
+                            <li><a href="#"><span><img class="simple-state" src="images/profile-icon.svg" alt="" /><img class="hover-state" src="images/profile-icon-hover.svg" alt="" /></span>Profile</a></li>
+                            <li><a class="active" href="setting.html"><span><img class="simple-state" src="images/setting-icon.svg" alt="" /><img class="hover-state" src="images/setting-icon-hover.svg" alt="" /></span>Settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="continuum-right">
+                    <div class="header">
+                        <div class="logo">
+                            <a  href="#"><img src="images/continuum-logo.svg" alt="" class="img-fluid" /></a>
+                            <h3>Continuing Education Tracker</h3>
+                        </div>
+                        <div class="continuum-user">
+                            <div class="text-box">
+                                <h3>Catherine Jennings</h3>
+                                <p>Compass Colorado</p>
+                            </div>
+                            <div class="image-holder">
+                                <a href="#"><img src="images/user-img.png" alt="" class="img-fluid"  /> </a>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="continuum-detail">
+                        <div class="title">
+                            <h3>Settings & Preferences</h3>
+                            <a class="btn-default" href="#">Save Changes</a>
+                        </div>  
+                        <div class="setting-sec">
+                            <div class="setting-box">
+                                <h4>Licensure Information</h4>
+                                <form class="licensur-info">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>LICENSE TYPE</label>
+                                                <select class="form-control">
+                                                    <option>Real Estate</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label>GOVERNING AGENCY</label>
+                                                <select class="form-control">
+                                                    <option>Colorado Association of Realtors</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>CURRENT LICENSE EXPIRATION</label>
+                                                <div class="calendar">
+                                                    <input type="text" class="form-control" id="startDate" placeholder="06/30/2020" />
+                                                    <span><img src="images/calendar-icon.svg" alt="" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="setting-box">
+                                <h4>Social Media Links</h4>
+                                <form class="social-info">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>LINKEDIN</label>
+                                                <input type="text" class="form-control" placeholder="http://linkedin.com/in/kate-jennings70" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>FACEBOOK</label>
+                                                <input type="text" class="form-control" placeholder="http://" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>TWITTER</label>
+                                                <input type="text" class="form-control" placeholder="http://" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="setting-box">
+                                <h4>Login Credentials</h4>
+                                <form class="social-info">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>USERNAME</label>
+                                                <input type="text" class="form-control" placeholder="kate.jennings70@gmail.com" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>PASSWORD</label>
+                                                <input type="password" class="form-control" placeholder="••••••••••" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <a class="reset-password" href="#">Reset password</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="setting-box">
+                                <h4>Email Notifications</h4>
+                                <div class="email-notification">
+                                    <ul>
+                                        <li>
+                                            <label class="check ">
+                                                <input type="checkbox" name="is_name">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="text-box">
+                                                <h5>Expiration Alerts</h5>
+                                                <p>Send me reminders about how many credits I need as my expiration date gets near</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label class="check ">
+                                                <input type="checkbox" name="is_name">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="text-box">
+                                                <h5>Continuum News</h5>
+                                                <p>Send me updates about the company, product updates, and activity I missed</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+        </div> 
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/jquery.min.js"></script> 
+        <script src="js/bootstrap.bundle.min.js"></script>   
+        <script src="js/moment-with-locales.min.js"></script>   
+        <script src="js/bootstrap-datetimepicker.min.js"></script>   
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
